@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <!-- Nav -->
+        <nav>
+            <h1><img src="https://img.icons8.com/ios-filled/48/000000/user-male--v1.png" alt="avatar" loading="lazy" class="avatar" title="avatar" />Chris Woods</h1>
+            <ul class="nav">
+                <li class="nav-list"><a href="#about" class="link">About</a></li>
+                <li class="nav-list"><a href="#work" class="link">Work</a></li>
+                <li class="nav-list"><a href="#contact" class="link">Contact Me</a></li>
+                <li class="nav-list"><a href="#resume" class="link">Resume</a></li>
+            </ul>
+        </nav>
+        <!-- Nav -->
+    </header>
+
+    <main>
+        <!-- About Me Begin-->
+        <section class="about" id="about">
+
+            <div class="section_one">
+                <h2>About Me</h2>
+            </div>
+            <div class="section_two">
+                <p class="about">
+                    My name is Chris Woods and I am currently a Director of DevOps at Granicus, LLC. For the past 15 years I've worked in the GovTech area as a Implementation Coordinator, Senior Business Analyst, Manager of Technolgy, and a Senior Director of Technology. I've worked on projects related to AWS, Microsoft Azure, SQL. I am currently enrolled in Northwestern's Full Stack Flex Online Program. With this additional knowledge I'm hoping to further my career in the technology field.
+                    I currently live in a Chicago suburb, about 30 minutes south of the big city. I've been married to my wife Tara for 13 years (I hope that is correct) and we have two boys. We also have a 2 year old boxer named Apollo.
+                </p>
+            </div>
+        </section>
+        <!-- About Me End-->
+        <!-- Work Begin-->
+        <section class="work" id="work">
+            <div class="section_one">
+                <h2>Work</h2>
+            </div>
+            <div class="section_two">
+                <div>
+                    <img src="assets/images/gitlabimage.jpeg" width="350" height="233" alt="GitHub" loading="lazy"
+                        class="GitHub" title="Github" />
+                    <img src="assets/images/html5.png" width="350" height="233" alt="html5" loading="lazy" class="html5"
+                        title="html5" />
+                </div>
+                <div>
+                    <img src="assets/images/jsimage.png" width="125" height="125" alt="JavaScript" loading="lazy"
+                        class="js" title="js" />
+                    <img src="assets/images/reactjs.png" width="300" height="125" alt="React JS" loading="lazy"
+                        class="reactjs" title="reactjs" />
+                </div>
+
+            </div>
+        </section>
+        <!-- Work End-->
+        <!-- Contact Begin-->
+        <section class="contact" id="contact">
+            <div class="section_one">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="section_two">
+                <p class="contact">
+                    <!-- Phone -->
+                    <a href="tel:(999)-999-999"><img
+                            src="https://img.icons8.com/material/96/000000/phonelink-ring--v1.png" alt="Call"
+                            title="Call" /></a>
+
+                    <!-- Email -->
+                    <a href="mailto:chris@chris-woods.net" target="_blank"><img
+                            src="https://img.icons8.com/material/96/000000/filled-sent.png" alt="Email"
+                            title="Email" /></a>
+
+                    <!-- SnapChat -->
+                    <a href="#" target="_blank"><img src="https://img.icons8.com/material/96/000000/snapchat.png"
+                            alt="SnapChat" title="SnapChat" /></a>
+
+                    <!-- Facebook -->
+                    <a href="#" target="_blank"><img src="https://img.icons8.com/material/96/000000/facebook--v1.png"
+                            alt="Facebook" title="Facebook" /></a>
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/cwoods/" target="_blank"><img
+                            src="https://img.icons8.com/material/96/000000/linkedin--v1.png" alt="linkedin"
+                            title="linkedin" /></a>
+
+                    <!-- GitHub -->
+                    <a href="https://github.com/chri9527?tab=repositories" target="_blank"><img src="https://img.icons8.com/material/96/000000/github.png"
+                            alt="GitHub" title="GitHub" /></a>
+
+
+                </p>
+
+            </div>
+        </section>
+        <!-- Contact End-->
+    </main>
+    <footer>
+        <div class="footer">
+                <div>
+                    <p>Woods Inc © 2021 - 2022</p>
+                </div>
+        </div>
+    </footer>
+    <i class="top" id="top"><img src="https://img.icons8.com/android/40/000000/circled-up-2.png"
+            class="top" alt="top" /></i>
+<script>
+// arrow up function
+const scrollUp = document.querySelector("#top");
+
+scrollUp.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
+
+
+</script>            
+</body>
+
+</html>
